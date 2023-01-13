@@ -28,7 +28,7 @@ main{
     color: #562EFF;
     font-size: 24px;
     font-weight: 900;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .parent-container{
@@ -56,3 +56,47 @@ main{
     border-radius: 50%;
     align-items: center;
 }
+
+/* top blogs css Utilities */
+
+.blog>img{
+    width: 177px;
+    height: 117px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 26px;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* .blog-info{
+    height: 80px;
+} */
+
+.blog-info>h5{
+    font-size: 20px;
+    width: 120px;
+    font-weight: 500;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+
+.blog-info > p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    /* line-height: 24px; */
+    /* line-height: 1; */
+}
+
+.blog-info > p a{
+    text-decoration: none;
+} 
