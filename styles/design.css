@@ -100,3 +100,40 @@ main{
 .blog-info > p a{
     text-decoration: none;
 } 
+
+/* course section css starts here */
+
+.container-two{
+    width: 870px;
+    height: 362px;
+    padding: 30px 30px;
+    margin: 21px auto;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.latest-txt{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+.subflex{
+    width: 252.42px;
+    height: 269.79px;
+    border: 1px solid #e2e2e2;
+    padding: 17px;
+    border-radius: 8px;
+
+
+}
+
+.cover{
+    width: 224px;
+    height: 104px;
+}
+
+.checked{
+    color: goldenrod;
+}

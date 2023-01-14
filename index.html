@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/design.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Grid & Flex</title>
 </head>
 <body>
@@ -85,25 +86,40 @@
                     </div>
                 </div>
             </div> <!--end of sub-->
-            <section>
-                <div class="latest-course">
-                    <div class="course">
-                        <div>
-                            <img class="cover" src="images/courses/course-1.png">
-                        </div>
-                        <div class="course-info">
-                            <h3>React- The Complete Guide 2020</h3>
-                            <p>Reed Krakoff.</p>
-                        </div>
-                    </div>
-                    <div class="course">
 
-                    </div>
-                    <div class="course">
+            <!--latest
+            ----course 
+            ----section-->
+            <div class="container-two">
+                <h1 class="latest-txt">Latest Course</h1>
 
+                <div class="parent-grid">
+                    <div class="subflex">
+                        <img class="cover" src="images/courses/course-1.png" alt="#">
+                        <h3>React- The Complete Guide 2020</h3>
+                        <p>Reed Krakoff</p>
+                        <div class="ratings">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                            <p>4.5</p>
+                            <p class="stat-bar"><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                        </div>
                     </div>
+
+                    <div class="subflex"></div>
+                    <div class="subflex"></div>
                 </div>
-            </section>
+
+            </div>
+           
+            
+           
+            
         </div> <!--end of main-->
     </main>
 </body>
