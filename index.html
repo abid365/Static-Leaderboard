@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/design.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6811f488f7.js" crossorigin="anonymous"></script>
     <title>Grid & Flex</title>
 </head>
 <body>
     <header>
         <nav>
-
+            <div class="left-portion">
+                <img class="brand" src="images/icons/logo.png">
+                <h2>Idea</h2>
+            </div>
+            <div class="right-portion">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Works</li>
+                    <li><img class="profile" src="images/icons/profile.png"> </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <!-- main section stars -->
@@ -94,25 +105,62 @@
                 <h1 class="latest-txt">Latest Course</h1>
 
                 <div class="parent-grid">
-                    <div class="subflex">
-                        <img class="cover" src="images/courses/course-1.png" alt="#">
-                        <h3>React- The Complete Guide 2020</h3>
-                        <p>Reed Krakoff</p>
-                        <div class="ratings">
-                            <div class="stars">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                            </div>
-                            <p>4.5</p>
-                            <p class="stat-bar"><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                    <div class="first-gen">
+                        <div class="second-gen">
+                            <img class="cover" src="images/courses/course-1.png">
+                            <h3>React- The Complete Guide 2020</h3>
+                            <p>Reed Krakoff</p>
                         </div>
+                        <div class="stats">
+                            <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="digit">4.5</p><p class="dial"><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                        </div>
+                        
                     </div>
 
-                    <div class="subflex"></div>
-                    <div class="subflex"></div>
+                    <div class="first-gen">
+                        <div class="second-gen">
+                            <img class="cover" src="images/courses/course-2.png">
+                            <h3>MS- Powerpoint Guide 2020</h3>
+                            <p>Waiter Scott</p>
+                        </div>
+                        <div class="stats">
+                            <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="digit">4.5</p><p class="dial"><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="first-gen">
+                        <div class="second-gen">
+                            <img class="cover" src="images/courses/course-3.png">
+                            <h3>JavaScript- Play With DOM 2020</h3>
+                            <p>Reed Krakoff</p>
+                        </div>
+                        <div class="stats">
+                            <div>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="digit">4.5</p><p class="dial"><i class="fa-regular fa-clock"></i> 01:30 hr</p>
+                        </div>
+                        
+                    </div>
                 </div>
 
             </div>
@@ -122,5 +170,9 @@
             
         </div> <!--end of main-->
     </main>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>

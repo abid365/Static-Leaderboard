@@ -3,7 +3,56 @@
 /* common utilities */
 body{
     font-family: 'Poppins',sans-serif;
+    background-color: #e5e5e5;
 }
+
+/*-----
+ nav--- 
+ section*/
+
+nav{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-portion{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.right-portion > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    color: white;
+
+}
+
+nav > .left-portion h2{
+    font-size: 24px;
+    color: white;
+}
+
+nav > .right-portion > ul{
+    list-style-type: none;
+}
+
+.brand{
+    height: 51px;
+    width: 40.42px;
+}
+
+.right-portion{
+    display: flex;
+
+}
+
+/* main section css starts from here */
 
 main{
     display: flex;
@@ -119,21 +168,53 @@ main{
     
 }
 
-.subflex{
+.parent-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+
+.first-gen{
     width: 252.42px;
     height: 269.79px;
     border: 1px solid #e2e2e2;
-    padding: 17px;
-    border-radius: 8px;
-
-
+    border-radius: 5px;
+    padding: 11px;
 }
 
 .cover{
-    width: 224px;
     height: 104px;
+    width: 224px;
 }
 
-.checked{
-    color: goldenrod;
+.stats{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 11px;
+}
+
+.digit{
+    color: #A2A2A2;
+    font-size: 14.69px;
+}
+
+.dial{
+    text-align: center;
+    color: #FF4A60;
+    font-size: 14.69px;
+    width: 90px;
+    height: 30px;
+    
+    border: 1px solid transparent;
+    border-radius: 14.69px;
+    background-color: #FFE4E8;
+}
+
+
+footer{
+    width: 1440px;
+    height: 200px;
+    margin-top: 130px;
+    background-color: black;
 }
